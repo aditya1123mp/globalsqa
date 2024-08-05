@@ -1,0 +1,2 @@
+# globalsqa
+automation of globalsqa
