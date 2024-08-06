@@ -61,3 +61,9 @@ WebUI.callTestCase(findTestCase('open_account'), [:], FailureHandling.STOP_ON_FA
 
 WebUI.callTestCase(findTestCase('customers'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('customer_login'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('deposit'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('withdrawl'), [:], FailureHandling.STOP_ON_FAILURE)
+
